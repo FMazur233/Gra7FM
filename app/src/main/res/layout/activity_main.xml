@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/licznikText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:enabled="false"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/komunikatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/trafieniaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trafienia: 0"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
